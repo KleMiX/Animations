@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    DBAccountManager* accountMgr = [[DBAccountManager alloc] initWithAppKey:@"z23zfwcrh8xan0z" secret:@"44n8xvpa0ssxizw"];
+    DBAccountManager* accountMgr = [[DBAccountManager alloc] initWithAppKey:@"YOUR-APP-KEY" secret:@"YOUR-APP-SECRET"];
     [DBAccountManager setSharedManager:accountMgr];
     
     return YES;
