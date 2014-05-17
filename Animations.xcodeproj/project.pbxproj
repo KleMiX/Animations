@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3323E6C17C3838200EAD57B /* VKAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E6B17C3838200EAD57B /* VKAnimationsViewController.m */; };
+		D3323E6F17C383B800EAD57B /* VKSpritesheetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E6E17C383B800EAD57B /* VKSpritesheetsViewController.m */; };
+		D3323E7217C3843700EAD57B /* VKFramesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E7117C3843700EAD57B /* VKFramesViewController.m */; };
+		D3323E7517C3846F00EAD57B /* VKImageNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E7417C3846E00EAD57B /* VKImageNameCell.m */; };
+		D3323E7817C385A000EAD57B /* VKAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E7717C385A000EAD57B /* VKAnimationViewController.m */; };
+		D3323E7B17C3A02200EAD57B /* VKImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D3323E7A17C3A02200EAD57B /* VKImageFrame.m */; };
+		D39508A417C63C7000744CD2 /* VKFrameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39508A317C63C7000744CD2 /* VKFrameEditViewController.m */; };
+		D39508A717C64E1300744CD2 /* VKAddSpritesheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39508A617C64E1300744CD2 /* VKAddSpritesheetViewController.m */; };
+		D3C648D117C0FCC70007AD4E /* VKFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648D017C0FCC70007AD4E /* VKFilesViewController.m */; };
+		D3C648D517C10F940007AD4E /* VKImageLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648D417C10F940007AD4E /* VKImageLabelCell.m */; };
+		D3C648DD17C110D40007AD4E /* VKStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648D817C110D40007AD4E /* VKStorage.m */; };
+		D3C648DE17C110D40007AD4E /* VKAnimationCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648DA17C110D40007AD4E /* VKAnimationCollection.m */; };
+		D3C648DF17C110D40007AD4E /* VKSpriteFrameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648DC17C110D40007AD4E /* VKSpriteFrameCache.m */; };
+		D3C648E117C112A90007AD4E /* ccanim-notfound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C648E017C112A90007AD4E /* ccanim-notfound@2x.png */; };
+		D3C648E317C112B70007AD4E /* ccanim-notfound.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C648E217C112B70007AD4E /* ccanim-notfound.png */; };
+		D3C648E717C219C50007AD4E /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648E617C219C50007AD4E /* Dropbox.framework */; };
+		D3C648EA17C21A440007AD4E /* VKLinkDropboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C648E917C21A440007AD4E /* VKLinkDropboxViewController.m */; };
+		D3C648F017C21C990007AD4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648EB17C21C990007AD4E /* CFNetwork.framework */; };
+		D3C648F117C21C990007AD4E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648EC17C21C990007AD4E /* libc++.dylib */; };
+		D3C648F217C21C990007AD4E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648ED17C21C990007AD4E /* QuartzCore.framework */; };
+		D3C648F317C21C990007AD4E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648EE17C21C990007AD4E /* Security.framework */; };
+		D3C648F417C21C990007AD4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C648EF17C21C990007AD4E /* SystemConfiguration.framework */; };
+		D3C648F617C225DD0007AD4E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3C648F517C225DD0007AD4E /* Settings.bundle */; };
+		D3C648F817C22B000007AD4E /* dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C648F717C22B000007AD4E /* dropbox.png */; };
+		D3CACDF517AD0E70005817D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CACDF417AD0E70005817D6 /* UIKit.framework */; };
+		D3CACDF717AD0E70005817D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CACDF617AD0E70005817D6 /* Foundation.framework */; };
+		D3CACDF917AD0E70005817D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CACDF817AD0E70005817D6 /* CoreGraphics.framework */; };
+		D3CACDFF17AD0E70005817D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CACDFD17AD0E70005817D6 /* InfoPlist.strings */; };
+		D3CACE0117AD0E70005817D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CACE0017AD0E70005817D6 /* main.m */; };
+		D3CACE0517AD0E70005817D6 /* VKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CACE0417AD0E70005817D6 /* VKAppDelegate.m */; };
+		D3CACE0717AD0E70005817D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CACE0617AD0E70005817D6 /* Default.png */; };
+		D3CACE0917AD0E70005817D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CACE0817AD0E70005817D6 /* Default@2x.png */; };
+		D3CACE0B17AD0E70005817D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CACE0A17AD0E70005817D6 /* Default-568h@2x.png */; };
+		D3CACE0E17AD0E70005817D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CACE0C17AD0E70005817D6 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3323E6A17C3838200EAD57B /* VKAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAnimationsViewController.h; sourceTree = "<group>"; };
+		D3323E6B17C3838200EAD57B /* VKAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAnimationsViewController.m; sourceTree = "<group>"; };
+		D3323E6D17C383B800EAD57B /* VKSpritesheetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSpritesheetsViewController.h; sourceTree = "<group>"; };
+		D3323E6E17C383B800EAD57B /* VKSpritesheetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSpritesheetsViewController.m; sourceTree = "<group>"; };
+		D3323E7017C3843700EAD57B /* VKFramesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFramesViewController.h; sourceTree = "<group>"; };
+		D3323E7117C3843700EAD57B /* VKFramesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFramesViewController.m; sourceTree = "<group>"; };
+		D3323E7317C3846E00EAD57B /* VKImageNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKImageNameCell.h; sourceTree = "<group>"; };
+		D3323E7417C3846E00EAD57B /* VKImageNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKImageNameCell.m; sourceTree = "<group>"; };
+		D3323E7617C385A000EAD57B /* VKAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAnimationViewController.h; sourceTree = "<group>"; };
+		D3323E7717C385A000EAD57B /* VKAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAnimationViewController.m; sourceTree = "<group>"; };
+		D3323E7917C3A02200EAD57B /* VKImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKImageFrame.h; sourceTree = "<group>"; };
+		D3323E7A17C3A02200EAD57B /* VKImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKImageFrame.m; sourceTree = "<group>"; };
+		D39508A217C63C7000744CD2 /* VKFrameEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFrameEditViewController.h; sourceTree = "<group>"; };
+		D39508A317C63C7000744CD2 /* VKFrameEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFrameEditViewController.m; sourceTree = "<group>"; };
+		D39508A517C64E1300744CD2 /* VKAddSpritesheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAddSpritesheetViewController.h; sourceTree = "<group>"; };
+		D39508A617C64E1300744CD2 /* VKAddSpritesheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAddSpritesheetViewController.m; sourceTree = "<group>"; };
+		D3C648CF17C0FCC70007AD4E /* VKFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFilesViewController.h; sourceTree = "<group>"; };
+		D3C648D017C0FCC70007AD4E /* VKFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFilesViewController.m; sourceTree = "<group>"; };
+		D3C648D317C10F940007AD4E /* VKImageLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKImageLabelCell.h; sourceTree = "<group>"; };
+		D3C648D417C10F940007AD4E /* VKImageLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKImageLabelCell.m; sourceTree = "<group>"; };
+		D3C648D717C110D40007AD4E /* VKStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKStorage.h; sourceTree = "<group>"; };
+		D3C648D817C110D40007AD4E /* VKStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKStorage.m; sourceTree = "<group>"; };
+		D3C648D917C110D40007AD4E /* VKAnimationCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAnimationCollection.h; sourceTree = "<group>"; };
+		D3C648DA17C110D40007AD4E /* VKAnimationCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAnimationCollection.m; sourceTree = "<group>"; };
+		D3C648DB17C110D40007AD4E /* VKSpriteFrameCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSpriteFrameCache.h; sourceTree = "<group>"; };
+		D3C648DC17C110D40007AD4E /* VKSpriteFrameCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSpriteFrameCache.m; sourceTree = "<group>"; };
+		D3C648E017C112A90007AD4E /* ccanim-notfound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ccanim-notfound@2x.png"; sourceTree = "<group>"; };
+		D3C648E217C112B70007AD4E /* ccanim-notfound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ccanim-notfound.png"; sourceTree = "<group>"; };
+		D3C648E617C219C50007AD4E /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		D3C648E817C21A440007AD4E /* VKLinkDropboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKLinkDropboxViewController.h; sourceTree = "<group>"; };
+		D3C648E917C21A440007AD4E /* VKLinkDropboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKLinkDropboxViewController.m; sourceTree = "<group>"; };
+		D3C648EB17C21C990007AD4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D3C648EC17C21C990007AD4E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		D3C648ED17C21C990007AD4E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3C648EE17C21C990007AD4E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D3C648EF17C21C990007AD4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3C648F517C225DD0007AD4E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D3C648F717C22B000007AD4E /* dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox.png; sourceTree = "<group>"; };
+		D3CACDF117AD0E70005817D6 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CACDF417AD0E70005817D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3CACDF617AD0E70005817D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3CACDF817AD0E70005817D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3CACDFC17AD0E70005817D6 /* Animations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animations-Info.plist"; sourceTree = "<group>"; };
+		D3CACDFE17AD0E70005817D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3CACE0017AD0E70005817D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CACE0217AD0E70005817D6 /* Animations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animations-Prefix.pch"; sourceTree = "<group>"; };
+		D3CACE0317AD0E70005817D6 /* VKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAppDelegate.h; sourceTree = "<group>"; };
+		D3CACE0417AD0E70005817D6 /* VKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAppDelegate.m; sourceTree = "<group>"; };
+		D3CACE0617AD0E70005817D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D3CACE0817AD0E70005817D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D3CACE0A17AD0E70005817D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3CACE0D17AD0E70005817D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CACDEE17AD0E70005817D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C648F017C21C990007AD4E /* CFNetwork.framework in Frameworks */,
+				D3C648F117C21C990007AD4E /* libc++.dylib in Frameworks */,
+				D3C648F217C21C990007AD4E /* QuartzCore.framework in Frameworks */,
+				D3C648F317C21C990007AD4E /* Security.framework in Frameworks */,
+				D3C648F417C21C990007AD4E /* SystemConfiguration.framework in Frameworks */,
+				D3CACDF517AD0E70005817D6 /* UIKit.framework in Frameworks */,
+				D3CACDF717AD0E70005817D6 /* Foundation.framework in Frameworks */,
+				D3CACDF917AD0E70005817D6 /* CoreGraphics.framework in Frameworks */,
+				D3C648E717C219C50007AD4E /* Dropbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39508A117C63C3C00744CD2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D3C648D317C10F940007AD4E /* VKImageLabelCell.h */,
+				D3C648D417C10F940007AD4E /* VKImageLabelCell.m */,
+				D3323E7317C3846E00EAD57B /* VKImageNameCell.h */,
+				D3323E7417C3846E00EAD57B /* VKImageNameCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D3C648D217C0FCCD0007AD4E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D39508A117C63C3C00744CD2 /* Cells */,
+				D3C648CF17C0FCC70007AD4E /* VKFilesViewController.h */,
+				D3C648D017C0FCC70007AD4E /* VKFilesViewController.m */,
+				D3C648E817C21A440007AD4E /* VKLinkDropboxViewController.h */,
+				D3C648E917C21A440007AD4E /* VKLinkDropboxViewController.m */,
+				D3323E6A17C3838200EAD57B /* VKAnimationsViewController.h */,
+				D3323E6B17C3838200EAD57B /* VKAnimationsViewController.m */,
+				D3323E6D17C383B800EAD57B /* VKSpritesheetsViewController.h */,
+				D3323E6E17C383B800EAD57B /* VKSpritesheetsViewController.m */,
+				D3323E7017C3843700EAD57B /* VKFramesViewController.h */,
+				D3323E7117C3843700EAD57B /* VKFramesViewController.m */,
+				D3323E7617C385A000EAD57B /* VKAnimationViewController.h */,
+				D3323E7717C385A000EAD57B /* VKAnimationViewController.m */,
+				D39508A217C63C7000744CD2 /* VKFrameEditViewController.h */,
+				D39508A317C63C7000744CD2 /* VKFrameEditViewController.m */,
+				D39508A517C64E1300744CD2 /* VKAddSpritesheetViewController.h */,
+				D39508A617C64E1300744CD2 /* VKAddSpritesheetViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D3C648D617C110BE0007AD4E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3C648D717C110D40007AD4E /* VKStorage.h */,
+				D3C648D817C110D40007AD4E /* VKStorage.m */,
+				D3C648D917C110D40007AD4E /* VKAnimationCollection.h */,
+				D3C648DA17C110D40007AD4E /* VKAnimationCollection.m */,
+				D3C648DB17C110D40007AD4E /* VKSpriteFrameCache.h */,
+				D3C648DC17C110D40007AD4E /* VKSpriteFrameCache.m */,
+				D3323E7917C3A02200EAD57B /* VKImageFrame.h */,
+				D3323E7A17C3A02200EAD57B /* VKImageFrame.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		D3CACDE817AD0E70005817D6 = {
+			isa = PBXGroup;
+			children = (
+				D3CACDFA17AD0E70005817D6 /* Animations */,
+				D3CACDF317AD0E70005817D6 /* Frameworks */,
+				D3CACDF217AD0E70005817D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CACDF217AD0E70005817D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CACDF117AD0E70005817D6 /* Animations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CACDF317AD0E70005817D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C648EB17C21C990007AD4E /* CFNetwork.framework */,
+				D3C648EC17C21C990007AD4E /* libc++.dylib */,
+				D3C648ED17C21C990007AD4E /* QuartzCore.framework */,
+				D3C648EE17C21C990007AD4E /* Security.framework */,
+				D3C648EF17C21C990007AD4E /* SystemConfiguration.framework */,
+				D3C648E617C219C50007AD4E /* Dropbox.framework */,
+				D3CACDF417AD0E70005817D6 /* UIKit.framework */,
+				D3CACDF617AD0E70005817D6 /* Foundation.framework */,
+				D3CACDF817AD0E70005817D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CACDFA17AD0E70005817D6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D3C648D617C110BE0007AD4E /* Data Model */,
+				D3CACE0317AD0E70005817D6 /* VKAppDelegate.h */,
+				D3CACE0417AD0E70005817D6 /* VKAppDelegate.m */,
+				D3CACE0C17AD0E70005817D6 /* MainStoryboard.storyboard */,
+				D3CACDFB17AD0E70005817D6 /* Supporting Files */,
+				D3C648D217C0FCCD0007AD4E /* UI */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D3CACDFB17AD0E70005817D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C648F717C22B000007AD4E /* dropbox.png */,
+				D3C648F517C225DD0007AD4E /* Settings.bundle */,
+				D3C648E017C112A90007AD4E /* ccanim-notfound@2x.png */,
+				D3C648E217C112B70007AD4E /* ccanim-notfound.png */,
+				D3CACDFC17AD0E70005817D6 /* Animations-Info.plist */,
+				D3CACDFD17AD0E70005817D6 /* InfoPlist.strings */,
+				D3CACE0017AD0E70005817D6 /* main.m */,
+				D3CACE0217AD0E70005817D6 /* Animations-Prefix.pch */,
+				D3CACE0617AD0E70005817D6 /* Default.png */,
+				D3CACE0817AD0E70005817D6 /* Default@2x.png */,
+				D3CACE0A17AD0E70005817D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CACDF017AD0E70005817D6 /* Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CACE1417AD0E70005817D6 /* Build configuration list for PBXNativeTarget "Animations" */;
+			buildPhases = (
+				D3CACDED17AD0E70005817D6 /* Sources */,
+				D3CACDEE17AD0E70005817D6 /* Frameworks */,
+				D3CACDEF17AD0E70005817D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animations;
+			productName = Animations;
+			productReference = D3CACDF117AD0E70005817D6 /* Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CACDE917AD0E70005817D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vsevolod Klemetjev";
+			};
+			buildConfigurationList = D3CACDEC17AD0E70005817D6 /* Build configuration list for PBXProject "Animations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3CACDE817AD0E70005817D6;
+			productRefGroup = D3CACDF217AD0E70005817D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CACDF017AD0E70005817D6 /* Animations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CACDEF17AD0E70005817D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CACDFF17AD0E70005817D6 /* InfoPlist.strings in Resources */,
+				D3CACE0717AD0E70005817D6 /* Default.png in Resources */,
+				D3CACE0917AD0E70005817D6 /* Default@2x.png in Resources */,
+				D3CACE0B17AD0E70005817D6 /* Default-568h@2x.png in Resources */,
+				D3CACE0E17AD0E70005817D6 /* MainStoryboard.storyboard in Resources */,
+				D3C648E117C112A90007AD4E /* ccanim-notfound@2x.png in Resources */,
+				D3C648E317C112B70007AD4E /* ccanim-notfound.png in Resources */,
+				D3C648F617C225DD0007AD4E /* Settings.bundle in Resources */,
+				D3C648F817C22B000007AD4E /* dropbox.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CACDED17AD0E70005817D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CACE0117AD0E70005817D6 /* main.m in Sources */,
+				D3CACE0517AD0E70005817D6 /* VKAppDelegate.m in Sources */,
+				D3C648D117C0FCC70007AD4E /* VKFilesViewController.m in Sources */,
+				D3C648D517C10F940007AD4E /* VKImageLabelCell.m in Sources */,
+				D3C648DD17C110D40007AD4E /* VKStorage.m in Sources */,
+				D3C648DE17C110D40007AD4E /* VKAnimationCollection.m in Sources */,
+				D3C648DF17C110D40007AD4E /* VKSpriteFrameCache.m in Sources */,
+				D3C648EA17C21A440007AD4E /* VKLinkDropboxViewController.m in Sources */,
+				D3323E6C17C3838200EAD57B /* VKAnimationsViewController.m in Sources */,
+				D3323E6F17C383B800EAD57B /* VKSpritesheetsViewController.m in Sources */,
+				D3323E7217C3843700EAD57B /* VKFramesViewController.m in Sources */,
+				D3323E7517C3846F00EAD57B /* VKImageNameCell.m in Sources */,
+				D3323E7817C385A000EAD57B /* VKAnimationViewController.m in Sources */,
+				D3323E7B17C3A02200EAD57B /* VKImageFrame.m in Sources */,
+				D39508A417C63C7000744CD2 /* VKFrameEditViewController.m in Sources */,
+				D39508A717C64E1300744CD2 /* VKAddSpritesheetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3CACDFD17AD0E70005817D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CACDFE17AD0E70005817D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3CACE0C17AD0E70005817D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CACE0D17AD0E70005817D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CACE1217AD0E70005817D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3CACE1317AD0E70005817D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CACE1517AD0E70005817D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animations/Animations-Prefix.pch";
+				INFOPLIST_FILE = "Animations/Animations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3CACE1617AD0E70005817D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animations/Animations-Prefix.pch";
+				INFOPLIST_FILE = "Animations/Animations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CACDEC17AD0E70005817D6 /* Build configuration list for PBXProject "Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CACE1217AD0E70005817D6 /* Debug */,
+				D3CACE1317AD0E70005817D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CACE1417AD0E70005817D6 /* Build configuration list for PBXNativeTarget "Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CACE1517AD0E70005817D6 /* Debug */,
+				D3CACE1617AD0E70005817D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CACDE917AD0E70005817D6 /* Project object */;
+}
